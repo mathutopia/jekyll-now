@@ -8,7 +8,14 @@ params:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE )
+knitr::opts_chunk$set(echo = TRUE,fig.path = "../images/test-" )
+knitr::knit_hooks$set(foo1 = function(before, options, envir) {
+    if (before) {
+        paste0("this is fig path:",options$fig.path,"\n")
+    } else {
+        "\n\n_I am after a chunk..._"
+    }
+})
 ```
 
 ## R Markdown
@@ -17,7 +24,7 @@ This is an R Markdown document. Markdown is a simple formatting syntax for autho
 
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
-```{r cars}
+```{r cars,foo1=T}
 summary(cars)
 ```
 

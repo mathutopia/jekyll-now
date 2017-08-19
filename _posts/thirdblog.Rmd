@@ -1,0 +1,14 @@
+---
+title: "title"
+author: cwl
+output:
+  md_document:
+    variant: markdown_github
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,fig.path = "../images/title-" )
+```
+
+# header first
+the third blog post. 
