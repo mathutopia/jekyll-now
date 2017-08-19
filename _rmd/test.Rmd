@@ -3,8 +3,8 @@ title: "testblog"
 output:
   md_document:
     variant: markdown_github
-param:
-  output: 
+params:
+  output_dir: "test/"
 ---
 
 ```{r setup, include=FALSE}
