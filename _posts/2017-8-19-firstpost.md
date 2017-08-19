@@ -1,3 +1,9 @@
+---
+layout: post
+title: r markdown test
+---
+
+
 R Markdown
 ----------
 
