@@ -16,4 +16,10 @@ you should safddss
 
     > test hahs
 
--   \*\*The five <notes:**> sfsdfewsdfs
+-   \*The five <notes:*> sfsdfewsdfs
+
+test math eqution
+=================
+
+this is an inline eqution ∫<sub>0</sub><sup>∞</sup>*f*(*x*)*d**x* = *s**i**n*(*x*). and this is a big equation
+$$\\int\_{0}^{\\infty}f(x)dx=\\frac{c}{a+b}$$
